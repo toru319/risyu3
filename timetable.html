@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時間割 - IVUSA履修登録サポート</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100">
+  <div id="loading" class="fixed inset-0 flex justify-center items-center bg-white bg-opacity-80 z-50">
+    <div class="loader"></div>
+  </div>
+
+  <div id="content" class="p-4 md:p-8 max-w-6xl mx-auto">
+    <div class="flex items-center gap-4 mb-8 flex-col md:flex-row">
+      <button id="backBtn" class="text-primary hover:underline">← 戻る</button>
+      <h2 id="pageTitle" class="text-xl md:text-2xl font-bold text-primary">時間割</h2>
+    </div>
+    
+    <div id="error" class="hidden text-red-500 bg-red-100 p-4 rounded-md text-center mb-6"></div>
+    
+    <div class="overflow-x-auto my-8">
+      <table class="w-full border-collapse bg-white shadow-sm">
+        <thead>
+          <tr>
+            <th class="bg-primary text-white p-3 md:p-4 text-center min-w-[80px] border border-gray-300"></th>
+            <th class="bg-primary text-white p-3 md:p-4 text-center min-w-[120px] border border-gray-300">月</th>
+            <th class="bg-primary text-white p-3 md:p-4 text-center min-w-[120px] border border-gray-300">火</th>
+            <th class="bg-primary text-white p-3 md:p-4 text-center min-w-[120px] border border-gray-300">水</th>
+            <th class="bg-primary text-white p-3 md:p-4 text-center min-w-[120px] border border-gray-300">木</th>
+            <th class="bg-primary text-white p-3 md:p-4 text-center min-w-[120px] border border-gray-300">金</th>
+            <th class="bg-primary text-white p-3 md:p-4 text-center min-w-[120px] border border-gray-300">土</th>
+          </tr>
+        </thead>
+        <tbody id="timetableBody">
+          <!-- 時間割の内容はJavaScriptで動的に生成 -->
+        </tbody>
+      </table>
+    </div>
+    
+    <section class="mt-12 p-6 md:p-8 bg-gray-100 rounded-lg">
+      <h3 class="text-xl font-bold text-primary mb-6">先輩からのコメント</h3>
+      <div id="comments" class="grid gap-4">
+        <!-- コメント内容はJavaScriptで動的に生成 -->
+      </div>
+    </section>
+  </div>
+
+  <script src="js/data/timetables.js"></script>
+  <script src="js/timetable.js"></script>
+</body>
+</html>

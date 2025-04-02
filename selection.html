@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学年・学部の選択 - IVUSA履修登録サポート</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100">
+  <div class="p-4 md:p-8 max-w-4xl mx-auto min-h-screen">
+    <h2 class="text-2xl md:text-3xl font-bold text-primary text-center mb-8">学年・学部の選択</h2>
+    
+    <div class="bg-white p-6 md:p-8 rounded-xl shadow-md">
+      <div class="mb-6">
+        <label for="grade" class="block mb-2 font-medium text-gray-700">学年</label>
+        <select id="grade" class="w-full p-3 border border-gray-300 rounded-md bg-white appearance-none">
+          <option value="">選択してください</option>
+          <option value="1">1年</option>
+          <option value="2">2年</option>
+          <option value="3">3年</option>
+          <option value="4">4年</option>
+        </select>
+      </div>
+      
+      <div class="mb-6">
+        <label for="faculty" class="block mb-2 font-medium text-gray-700">学部</label>
+        <select id="faculty" class="w-full p-3 border border-gray-300 rounded-md bg-white appearance-none">
+          <option value="">選択してください</option>
+          <!-- 学部はJavaScriptで動的に追加 -->
+        </select>
+      </div>
+      
+      <div class="mb-6">
+        <label for="department" class="block mb-2 font-medium text-gray-700">学科</label>
+        <select id="department" class="w-full p-3 border border-gray-300 rounded-md bg-white appearance-none" disabled>
+          <option value="">選択してください</option>
+          <!-- 学科はJavaScriptで動的に追加 -->
+        </select>
+      </div>
+      
+      <div id="error" class="hidden text-red-500 bg-red-100 p-3 rounded-md text-center mb-6"></div>
+      
+      <div class="flex justify-end gap-4 mt-8">
+        <button id="backBtn" class="px-5 py-3 bg-gray-200 text-gray-700 rounded-md font-medium hover:bg-gray-300 transition-colors">戻る</button>
+        <button id="submitBtn" class="px-5 py-3 bg-primary text-white rounded-md font-medium hover:bg-primary-dark transition-colors">決定</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data/faculties.js"></script>
+  <script src="js/selection.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>楽単授業一覧 - IVUSA履修登録サポート</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100">
+  <div id="loading" class="fixed inset-0 flex justify-center items-center bg-white bg-opacity-80 z-50">
+    <div class="loader"></div>
+  </div>
+
+  <div id="content" class="p-4 md:p-8 max-w-4xl mx-auto">
+    <div class="flex items-center gap-4 mb-8 flex-col md:flex-row">
+      <button id="backBtn" class="text-primary hover:underline">← 戻る</button>
+      <h2 class="text-xl md:text-2xl font-bold text-primary">楽単授業一覧</h2>
+    </div>
+    
+    <div id="error" class="hidden text-red-500 bg-red-100 p-4 rounded-md text-center mb-6"></div>
+    
+    <div id="courseList" class="grid gap-6">
+      <!-- 楽単授業リストはJavaScriptで動的に生成 -->
+    </div>
+  </div>
+
+  <script src="js/easy-courses.js"></script>
+</body>
+</html>
