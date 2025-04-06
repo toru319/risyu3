@@ -10,18 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // サンプルデータ（実際には外部JSONやAPIから取得）
     const coursesData = [
       {
-        name: "国際関係論",
-        faculty: "国際日本学部",
-        grade: 2,
-        evaluation: "レポート（60%）+ 小テスト（40%）",
-        difficulty: 2,
-        comment: "週1回の講義でテスト範囲が明確。過去問が共有されやすい",
+        name: "教養データサイエンス",
+        faculty: "共通教養",
+        evaluation: "授業毎の演習（100%）",
+        difficulty: 1,
+        comment: "問題の答えが出回っている",
         recommended: true
       },
       {
         name: "情報社会論",
         faculty: "情報学部",
-        grade: 1,
         evaluation: "期末試験（100%）",
         difficulty: 1,
         comment: "持ち込み可の試験で基本的な用語を覚えるだけでOK",
@@ -77,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
           
           <div class="flex flex-wrap gap-2 text-sm">
             <div class="bg-gray-100 px-3 py-1 rounded-full">${course.faculty}</div>
-            <div class="bg-gray-100 px-3 py-1 rounded-full">${course.grade}年次</div>
             <div class="bg-blue-100 px-3 py-1 rounded-full">難易度: ${'★'.repeat(course.difficulty)}</div>
           </div>
           
