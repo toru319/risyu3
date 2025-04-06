@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         faculty: "共通教養",
         evaluation: "最終回14回目の授業に実施（100%）",
         difficulty: 2,
-        comment: "火曜2限",
+        comment: "火曜2限。初回講義等で考査のレポート題を言ってくれる。レポートの題を言ってくれるからそれさえできればOK！題もそこまで難しくない内容",
         recommended: true
       },
       {
@@ -68,17 +68,17 @@ document.addEventListener('DOMContentLoaded', function() {
         {
         name: "文化人類学(荒木)",
         faculty: "共通教養",
-        evaluation: "",
+        evaluation: "授業中のコメントシートの内容50％、課題レポート50％",
         difficulty: 2,
-        comment: "",
+        comment: "月曜4限、時間外",
         recommended: true
         },
         {
         name: "心理学(立川)",
         faculty: "共通教養",
-        evaluation: "",
+        evaluation: "リアペ50％、授業内試験50％",
         difficulty: 2,
-        comment: "",
+        comment: "水5（オンタイム0型）",
         recommended: true
         },
         {
@@ -92,18 +92,50 @@ document.addEventListener('DOMContentLoaded', function() {
         {
         name: "ボランティア論(斎藤)",
         faculty: "共通教養",
+        evaluation: "グループ作業提出物（２０％）、中間発表・成果発表（４０％）、学生間の相互評価（２０％）個人ワーク提出物（２０％）",
+        difficulty: 2,
+        comment: "月曜2限",
+        recommended: true
+        },
+        {
+        name: "民俗学（角南）",
+        faculty: "共通教養",
+        evaluation: "期末レポート55％、小テスト(リアクションペーパー))45％",
+        difficulty: 2,
+        comment: "火曜1限",
+        recommended: true
+        },
+        {
+        name: "民俗学（内藤）",
+        faculty: "共通教養",
+        evaluation: "リアクションペーパー20％、授業内での質疑応答10％、期末レポート70％",
+        difficulty: 2,
+        comment: "木曜2限、金曜5限",
+        recommended: true
+        },
+        {
+        name: "民俗学（周）",
+        faculty: "共通教養",
         evaluation: "",
         difficulty: 2,
         comment: "",
         recommended: true
         },
         {
-        name: "民俗学",
-        faculty: "共通教養",
-        evaluation: "",
-        difficulty: 2,
-        comment: "",
-        recommended: true
+            name: "民俗学",
+            faculty: "共通教養",
+            evaluation: "",
+            difficulty: 2,
+            comment: "",
+            recommended: true
+        },
+        {
+            name: "民俗学",
+            faculty: "共通教養",
+            evaluation: "",
+            difficulty: 2,
+            comment: "",
+            recommended: true
         },
         {
         name: "ジェンダー論",
