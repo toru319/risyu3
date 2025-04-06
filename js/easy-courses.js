@@ -14,17 +14,169 @@ document.addEventListener('DOMContentLoaded', function() {
         faculty: "共通教養",
         evaluation: "授業毎の演習（100%）",
         difficulty: 1,
-        comment: "問題の答えが出回っている",
+        comment: "オンデマンドあり。問題の答えが出回っている",
         recommended: true
       },
       {
-        name: "情報社会論",
-        faculty: "情報学部",
-        evaluation: "期末試験（100%）",
-        difficulty: 1,
-        comment: "持ち込み可の試験で基本的な用語を覚えるだけでOK",
+        name: "科学技術論（青木）",
+        faculty: "共通教養",
+        evaluation: "最終回14回目の授業に実施（100%）",
+        difficulty: 2,
+        comment: "火曜2限",
         recommended: true
       },
+      {
+        name: "科学の世界（佐藤）",
+        faculty: "共通教養",
+        evaluation: "定期試験（100%）",
+        difficulty: 2,
+        comment: "月曜4限。基本的にはパワーポイントを利用したスライド映写をしながら講師が講義します。",
+        recommended: true
+      },
+      {
+        name: "世界の中の日本（新垣）",
+        faculty: "共通教養",
+        evaluation: "小課題（30%）中間報告（30%）期末報告（40％）",
+        difficulty: 2,
+        comment: "木曜1限",
+        recommended: true
+      },
+      {
+        name: "神奈川大学の歴史（斎藤）",
+        faculty: "共通教養",
+        evaluation: "小テストおよびレポート40％、記述式試験60％",
+        difficulty: 2,
+        comment: "火曜1限",
+        recommended: true
+      },
+      {
+        name: "初級中国語Ia(山村)",
+        faculty: "共通教養外国語",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+      },
+      {
+        name: "経済学(小松)",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+      },
+        {
+        name: "文化人類学(荒木)",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "心理学(立川)",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "日本語学(菊地)",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "ボランティア論(斎藤)",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "民俗学",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "ジェンダー論",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "法学",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "政治学",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "物理科学（真庭）",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "健康科学とスポーツ",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "公衆衛生",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "環境と社会",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "キャリアデザイン",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
+        {
+        name: "生命科学（針原）",
+        faculty: "共通教養",
+        evaluation: "",
+        difficulty: 2,
+        comment: "",
+        recommended: true
+        },
       // その他のデータサンプル...
     ];
   
