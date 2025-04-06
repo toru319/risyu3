@@ -265,7 +265,7 @@ const timetables = {
       { name: "" }, // 木
       { name: "" }, // 金
       { name: "" } // 土
-    ]
+    ],
   ],
   comments: [
     {
