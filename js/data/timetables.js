@@ -70,7 +70,7 @@ const timetables = {
     },
 
     "経営学部-国際経営学科-1": {
-  timetables: [
+  timetable: [
     [ // 1限
       { name: "" }, // 月
       { name: "英語II（中級）/中級英語II前半 経営 [d]" }, // 火
@@ -138,7 +138,7 @@ const timetables = {
 },
 
 "経済学部-現代ビジネス学科-1": {
-  timetables: [
+  timetable: [
     [ // 1限 (09:00〜10:40)
       { name: "" }, // 月
       { name: "英語II（中級）/中級英語II前半" }, // 火
