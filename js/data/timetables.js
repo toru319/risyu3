@@ -509,7 +509,7 @@ const timetables = {
       { name: "" }, // 月
       { name: "" }, // 火
       { name: "" }, // 水
-      { name: "文章表現" }, // 木
+      { name: "" }, // 木
       { name: "" }, // 金
       { name: "" } // 土
     ],
