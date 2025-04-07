@@ -116,49 +116,49 @@ document.addEventListener('DOMContentLoaded', function() {
         {
         name: "民俗学（周）",
         faculty: "共通教養",
-        evaluation: "",
+        evaluation: "期末レポート100％",
         difficulty: 2,
-        comment: "",
+        comment: "金曜1限",
         recommended: true
         },
         {
-            name: "民俗学",
+            name: "民俗学（丸山）",
             faculty: "共通教養",
-            evaluation: "",
+            evaluation: "2期と3期の終了時に実施するレポート（各2000字程度）",
             difficulty: 2,
-            comment: "",
+            comment: "時間外オンデマンド0型",
             recommended: true
         },
         {
-            name: "民俗学",
+            name: "民俗学（山本）",
             faculty: "共通教養",
-            evaluation: "",
+            evaluation: "レポート１回（40％）、授業内小テスト３回（各20％）、その他受講態度等",
             difficulty: 2,
-            comment: "",
+            comment: "火曜5限",
             recommended: true
         },
         {
-        name: "ジェンダー論",
+        name: "ジェンダー論（小口）",
         faculty: "共通教養",
-        evaluation: "",
+        evaluation: "（木3）平常点30％（リアクションペーパー等）、確認テスト70%（オンデマンド）平常点60％（各回ごとの確認の小テスト）、確認テスト40%（最終回に行う全体の内容に関するテスト）",
         difficulty: 2,
-        comment: "",
+        comment: "木3、時間外オンデマンド0型",
         recommended: true
         },
         {
-        name: "法学",
+        name: "法学（奥野）",
         faculty: "共通教養",
-        evaluation: "",
+        evaluation: "第11回で実施する臨時試験（レポート　期間は1週間）",
         difficulty: 2,
-        comment: "",
+        comment: "オンデマンド0型",
         recommended: true
         },
         {
-        name: "政治学",
+        name: "政治学（山田）",
         faculty: "共通教養",
-        evaluation: "",
+        evaluation: "期末試験に70％、授業課題に30％",
         difficulty: 2,
-        comment: "",
+        comment: "火曜2限、金曜2限。最終講義でテストの問題がレジュメのどこから出るか教えてくれる、暗記得意な人向け",
         recommended: true
         },
         {
@@ -178,11 +178,11 @@ document.addEventListener('DOMContentLoaded', function() {
         recommended: true
         },
         {
-        name: "公衆衛生",
+        name: "公衆衛生（天笠）",
         faculty: "共通教養",
-        evaluation: "",
+        evaluation: "各回の講義後課題70%、最終レポート課題30%",
         difficulty: 2,
-        comment: "",
+        comment: "時間外オンデマンド0型",
         recommended: true
         },
         {
